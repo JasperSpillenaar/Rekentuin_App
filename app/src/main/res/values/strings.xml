@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Rekentuin_App</string>
+    <string name="rekentuin">Rekentuin</string>
+    <string name="button">Button</string>
+    <string name="oefenen">Oefenen</string>
+    <string name="toetsen">Toetsen</string>
+    <string name="klaar_om_te_leren">Klaar om te leren?</string>
+    <string name="button1">1</string>
+    <string name="_11_20_locked">11/20 Locked</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_9">9</string>
+    <string name="_10">10</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="oefenenback">Oefenen</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_11_t_m_20">11 t/m 20</string>
+    <string name="toetsen1">Toetsen</string>
+    <string name="_button1">1</string>
+    <string name="_buttons1">1</string>
+    <string name="_1">1</string>
+</resources>

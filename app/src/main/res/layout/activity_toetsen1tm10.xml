@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".Toetsen1tm10">
+
+    <Button
+        android:id="@+id/button26"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="44dp"
+        android:background="#66BDD0"
+        android:fontFamily="@font/love_ya_like_a_sister"
+        android:onClick="goToToetsen1"
+        android:text="@string/_1"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button41" />
+
+    <Button
+        android:id="@+id/button27"
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="8dp"
+        android:background="#66BDD0"
+        android:fontFamily="@font/love_ya_like_a_sister"
+        android:onClick="goToSommen2"
+        android:text="@string/_2"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toStartOf="@+id/button28"
+        app:layout_constraintStart_toEndOf="@+id/button26"
+        app:layout_constraintTop_toBottomOf="@+id/button41" />
+
+    <Button
+        android:id="@+id/button28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="32dp"
+        android:background="#66BDD0"
+        android:fontFamily="@font/love_ya_like_a_sister"
+        android:onClick="goToSommen3"
+        android:text="@string/_3"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button41" />
+
+    <Button
+        android:id="@+id/button29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:background="#66BDD0"
+        android:fontFamily="@font/love_ya_like_a_sister"
+        android:onClick="goToSommen4"
+        android:text="@string/_4"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button26" />
+
+    <Button
+        android:id="@+id/button33"
+        android:layout_width="92dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:background="#66BDD0"
+        android:fontFamily="@font/love_ya_like_a_sister"
+        android:onClick="goToSommen5"
+        android:text="@string/_5"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toStartOf="@+id/button36"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toEndOf="@+id/button29"
+        app:layout_constraintTop_toBottomOf="@+id/button27" />
+
+    <Button
+        android:id="@+id/button36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:background="#66BDD0"
+        android:fontFamily="@font/love_ya_like_a_sister"
+        android:onClick="goToSommen6"
+        android:text="@string/_6"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button28" />
+
+    <Button
+        android:id="@+id/button31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:background="#66BDD0"
+        android:fontFamily="@font/love_ya_like_a_sister"
+        android:onClick="goToSommen7"
+        android:text="@string/_7"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button29" />
+
+    <Button
+        android:id="@+id/button34"
+        android:layout_width="92dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:background="#66BDD0"
+        android:fontFamily="@font/love_ya_like_a_sister"
+        android:onClick="goToSommen8"
+        android:text="@string/_8"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toStartOf="@+id/button37"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toEndOf="@+id/button31"
+        app:layout_constraintTop_toBottomOf="@+id/button33" />
+
+    <Button
+        android:id="@+id/button37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:background="#66BDD0"
+        android:fontFamily="@font/love_ya_like_a_sister"
+        android:onClick="goToSommen9"
+        android:text="@string/_9"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button36" />
+
+    <Button
+        android:id="@+id/button35"
+        android:layout_width="92dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:background="#66BDD0"
+        android:fontFamily="@font/love_ya_like_a_sister"
+        android:onClick="goToSommen10"
+        android:text="@string/_10"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button34" />
+
+    <Button
+        android:id="@+id/button40"
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:background="#66BDD0"
+        android:fontFamily="@font/love_ya_like_a_sister"
+        android:onClick="goToTafels11tm20"
+        android:text="@string/_11_t_m_20"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button35" />
+
+    <FrameLayout
+        android:id="@+id/Title_Container"
+        android:layout_width="411dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="#72D6EC"
+        app:layout_constraintEnd_toEndOf="@+id/title2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/luckiest_guy"
+        android:text="@string/rekentuin"
+        android:textAlignment="center"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toBottomOf="@+id/Title_Container"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Title_Container" />
+
+    <Button
+        android:id="@+id/button41"
+        android:layout_width="294dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="8dp"
+        android:background="#66BDD0"
+        android:fontFamily="@font/love_ya_like_a_sister"
+        android:onClick="goToHome"
+        android:text="Toetsen"
+        android:textSize="38sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Title_Container" />
+
+</android.support.constraint.ConstraintLayout>
